@@ -1,0 +1,68 @@
+body { background-color: whitesmoke }
+
+.jumbotron {
+  background-color: lightgray;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  /* height: 700px; */
+}
+
+#articles h2 {
+  text-align: center;
+}
+
+.article-wrap {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.article-comment {
+  margin: 5px 0px;
+}
+
+.article-title {
+  font-size: 24px;
+}
+
+.article-summary, .article-link, .article-byline {
+  font-size: 18px;
+}
+
+#notes {
+  float: right;
+  width: 30%;
+}
+
+.note-title {
+  font-size: 22px;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #FCF5C7;
+  margin: 5px;
+}
+
+input {
+  height: 30px;
+  font-size: 20px;
+}
+
+textarea {
+  height: 150px;
+  font-size: 16px;
+}
